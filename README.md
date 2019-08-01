@@ -1,5 +1,5 @@
 # leetcode-solutions
-for practice leetcode problems
+for practice leetcode problems by Spring Boot
 
 ### Easy
 1. [1]两数之和--[TwoSum](./lc-problems-solution-api/src/main/java/com/leetcode/problems/easy/TwoSum.java)
