@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <!-- 基本信息 -->
+  <modelVersion>4.0.0</modelVersion>
+  <packaging>pom</packaging>
+  <name>lc-problems-solution</name>
+  <description>LeetCode solutions project for Spring Boot</description>
+
+  <!-- 继承说明：这里继承SpringBoot提供的父工程 -->
+  <parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>2.1.6.RELEASE</version>
+    <relativePath/>
+  </parent>
+
+  <!-- 项目说明：这里作为聚合工程的父工程 -->
+  <groupId>com.leetcode.problems</groupId>
+  <artifactId>lc-problems-solution</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+
+  <!-- 版本说明：这里统一管理依赖的版本号 -->
+  <dependencyManagement>
+    <dependencies>
+      <!-- local api 版本管理 -->
+      <dependency>
+        <groupId>com.leetcode.problems</groupId>
+        <artifactId>lc-problems-solution-api</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+      </dependency>
+      <!-- local impl 版本管理 -->
+      <dependency>
+        <groupId>com.leetcode.problems</groupId>
+        <artifactId>lc-problems-solution-impl</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+      </dependency>
+      <!-- local web 版本管理 -->
+      <dependency>
+        <groupId>com.leetcode.problems</groupId>
+        <artifactId>lc-problems-solution-web</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
+  <!-- 模块说明：这里声明多个子模块 -->
+  <modules>
+    <module>lc-problems-solution-api</module>
+    <module>lc-problems-solution-impl</module>
+    <module>lc-problems-solution-web</module>
+  </modules>
+
+  <!-- 项目启动类 -->
+  <properties>
+    <start-class>com.Application</start-class>
+  </properties>
+
+</project>
