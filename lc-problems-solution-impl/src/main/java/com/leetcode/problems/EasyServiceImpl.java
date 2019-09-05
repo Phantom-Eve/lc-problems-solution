@@ -8,6 +8,7 @@ import com.leetcode.problems.easy.LengthOfLastWord;
 import com.leetcode.problems.easy.LongestCommonPrefix;
 import com.leetcode.problems.easy.MaxSubArray;
 import com.leetcode.problems.easy.MergeTwoLists;
+import com.leetcode.problems.easy.PlusOne;
 import com.leetcode.problems.easy.RemoveDuplicates;
 import com.leetcode.problems.easy.RemoveElement;
 import com.leetcode.problems.easy.Reverse;
@@ -168,5 +169,15 @@ public class EasyServiceImpl implements EasyService {
     @Override
     public int lengthOfLastWord(String s) {
         return LengthOfLastWord.solve(s);
+    }
+
+    /**
+     * 66-加一
+     * @param digits 非负整数数组
+     * @return int[]
+     */
+    @Override
+    public int[] plusOne(int[] digits) {
+        return PlusOne.solve(digits);
     }
 }

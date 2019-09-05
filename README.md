@@ -16,5 +16,6 @@ for practice leetcode problems by Spring Boot
 12. [38]报数--[CountAndSay](./lc-problems-solution-api/src/main/java/com/leetcode/problems/easy/CountAndSay.java)
 13. [53]最大子序和--[MaxSubArray](./lc-problems-solution-api/src/main/java/com/leetcode/problems/easy/MaxSubArray.java)
 14. [58]最后一个单词的长度--[LengthOfLastWord](./lc-problems-solution-api/src/main/java/com/leetcode/problems/easy/LengthOfLastWord.java)
+16. [66]加一--[PlusOne](./lc-problems-solution-api/src/main/java/com/leetcode/problems/easy/PlusOne.java)
 ### Medium
 ### Hard

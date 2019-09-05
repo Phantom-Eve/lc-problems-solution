@@ -111,4 +111,11 @@ public interface EasyService {
      */
     int lengthOfLastWord(String s);
 
+    /**
+     * 66-加一
+     * @param digits 非负整数数组
+     * @return int[]
+     */
+    int[] plusOne(int[] digits);
+
 }
