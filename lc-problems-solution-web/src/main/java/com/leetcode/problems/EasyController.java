@@ -159,4 +159,12 @@ public class EasyController {
         return new Gson().toJson(easyService.plusOne(digits));
     }
 
+    /**
+     * 67-二进制求和
+     */
+    @GetMapping("/addBinary")
+    public String addBinary(String a, String b) {
+        return new Gson().toJson(easyService.addBinary(a, b));
+    }
+
 }

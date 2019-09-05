@@ -1,6 +1,7 @@
 package com.leetcode.problems;
 
 import com.leetcode.problems.auxiliary.ListNode;
+import com.leetcode.problems.easy.AddBinary;
 import com.leetcode.problems.easy.CountAndSay;
 import com.leetcode.problems.easy.IsPalindrome;
 import com.leetcode.problems.easy.IsValid;
@@ -179,5 +180,16 @@ public class EasyServiceImpl implements EasyService {
     @Override
     public int[] plusOne(int[] digits) {
         return PlusOne.solve(digits);
+    }
+
+    /**
+     * 67-二进制求和
+     * @param a 二进制字符a
+     * @param b 二进制字符b
+     * @return java.lang.String
+     */
+    @Override
+    public String addBinary(String a, String b) {
+        return AddBinary.solve(a, b);
     }
 }
