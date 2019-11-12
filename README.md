@@ -18,5 +18,6 @@ for practice leetcode problems by Spring Boot
 14. [58]最后一个单词的长度--[LengthOfLastWord](./lc-problems-solution-api/src/main/java/com/leetcode/problems/easy/LengthOfLastWord.java)
 15. [66]加一--[PlusOne](./lc-problems-solution-api/src/main/java/com/leetcode/problems/easy/PlusOne.java)
 16. [67]二进制求和--[AddBinary](./lc-problems-solution-api/src/main/java/com/leetcode/problems/easy/AddBinary.java)
+17. [69]x的平方根--[MySqrt](./lc-problems-solution-api/src/main/java/com/leetcode/problems/easy/MySqrt.java)
 ### Medium
 ### Hard

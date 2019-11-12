@@ -167,4 +167,13 @@ public class EasyController {
         return new Gson().toJson(easyService.addBinary(a, b));
     }
 
+    /**
+     * 69-x的平方根
+     * @param x
+     * @return
+     */
+    @GetMapping("/mySqrt")
+    public String mySqrt(int x) {
+        return new Gson().toJson(easyService.mySqrt(x));
+    }
 }

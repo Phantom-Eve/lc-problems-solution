@@ -126,4 +126,10 @@ public interface EasyService {
      */
     String addBinary(String a, String b);
 
+    /**
+     * 69-x的平方根
+     * @param x 非负整数
+     * @return int
+     */
+    int mySqrt(int x);
 }

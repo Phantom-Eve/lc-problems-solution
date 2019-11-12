@@ -2,6 +2,7 @@ package com.leetcode.problems;
 
 import com.leetcode.problems.auxiliary.ListNode;
 import com.leetcode.problems.easy.AddBinary;
+import com.leetcode.problems.easy.ClimbStairs;
 import com.leetcode.problems.easy.CountAndSay;
 import com.leetcode.problems.easy.IsPalindrome;
 import com.leetcode.problems.easy.IsValid;
@@ -9,6 +10,7 @@ import com.leetcode.problems.easy.LengthOfLastWord;
 import com.leetcode.problems.easy.LongestCommonPrefix;
 import com.leetcode.problems.easy.MaxSubArray;
 import com.leetcode.problems.easy.MergeTwoLists;
+import com.leetcode.problems.easy.MySqrt;
 import com.leetcode.problems.easy.PlusOne;
 import com.leetcode.problems.easy.RemoveDuplicates;
 import com.leetcode.problems.easy.RemoveElement;
@@ -191,5 +193,15 @@ public class EasyServiceImpl implements EasyService {
     @Override
     public String addBinary(String a, String b) {
         return AddBinary.solve(a, b);
+    }
+
+    /**
+     * 69-x的平方根
+     * @param x 非负整数
+     * @return int
+     */
+    @Override
+    public int mySqrt(int x) {
+        return MySqrt.solve(x);
     }
 }
