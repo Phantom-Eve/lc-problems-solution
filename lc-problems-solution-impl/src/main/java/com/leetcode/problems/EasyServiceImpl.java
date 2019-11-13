@@ -204,4 +204,14 @@ public class EasyServiceImpl implements EasyService {
     public int mySqrt(int x) {
         return MySqrt.solve(x);
     }
+
+    /**
+     * 70-爬楼梯
+     * @param n 正整数
+     * @return int
+     */
+    @Override
+    public int climbStairs(int n) {
+        return ClimbStairs.solve(n);
+    }
 }

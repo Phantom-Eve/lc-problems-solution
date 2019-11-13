@@ -176,4 +176,14 @@ public class EasyController {
     public String mySqrt(int x) {
         return new Gson().toJson(easyService.mySqrt(x));
     }
+
+    /**
+     * 70-爬楼梯
+     * @param n 正整数
+     * @return int
+     */
+    @GetMapping("/climbStairs")
+    public String climbStairs(int n) {
+        return new Gson().toJson(easyService.climbStairs(n));
+    }
 }

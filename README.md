@@ -19,5 +19,6 @@ for practice leetcode problems by Spring Boot
 15. [66]加一--[PlusOne](./lc-problems-solution-api/src/main/java/com/leetcode/problems/easy/PlusOne.java)
 16. [67]二进制求和--[AddBinary](./lc-problems-solution-api/src/main/java/com/leetcode/problems/easy/AddBinary.java)
 17. [69]x的平方根--[MySqrt](./lc-problems-solution-api/src/main/java/com/leetcode/problems/easy/MySqrt.java)
+18. [70]爬楼梯--[ClimbStairs](./lc-problems-solution-api/src/main/java/com/leetcode/problems/easy/ClimbStairs.java)
 ### Medium
 ### Hard

@@ -132,4 +132,11 @@ public interface EasyService {
      * @return int
      */
     int mySqrt(int x);
+
+    /**
+     * 70-爬楼梯
+     * @param n 正整数
+     * @return int
+     */
+    int climbStairs(int n);
 }
