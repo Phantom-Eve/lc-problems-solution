@@ -169,8 +169,6 @@ public class EasyController {
 
     /**
      * 69-x的平方根
-     * @param x
-     * @return
      */
     @GetMapping("/mySqrt")
     public String mySqrt(int x) {
@@ -179,11 +177,17 @@ public class EasyController {
 
     /**
      * 70-爬楼梯
-     * @param n 正整数
-     * @return int
      */
     @GetMapping("/climbStairs")
     public String climbStairs(int n) {
         return new Gson().toJson(easyService.climbStairs(n));
+    }
+
+    /**
+     * 83-删除排序链表中的重复元素
+     */
+    @PostMapping("/deleteDuplicates")
+    public String deleteDuplicates(@RequestBody ReqParams reqParams) {
+        return new Gson().toJson(easyService.deleteDuplicates(reqParams.getL1()));
     }
 }

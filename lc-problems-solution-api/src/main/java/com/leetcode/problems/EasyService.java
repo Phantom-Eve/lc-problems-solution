@@ -139,4 +139,11 @@ public interface EasyService {
      * @return int
      */
     int climbStairs(int n);
+
+    /**
+     * 83-删除排序链表中的重复元素
+     * @param head 排序链表
+     * @return ListNode 去重后的链表
+     */
+    ListNode deleteDuplicates(ListNode head);
 }

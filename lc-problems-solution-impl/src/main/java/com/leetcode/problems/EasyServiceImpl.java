@@ -4,6 +4,7 @@ import com.leetcode.problems.auxiliary.ListNode;
 import com.leetcode.problems.easy.AddBinary;
 import com.leetcode.problems.easy.ClimbStairs;
 import com.leetcode.problems.easy.CountAndSay;
+import com.leetcode.problems.easy.DeleteDuplicates;
 import com.leetcode.problems.easy.IsPalindrome;
 import com.leetcode.problems.easy.IsValid;
 import com.leetcode.problems.easy.LengthOfLastWord;
@@ -213,5 +214,15 @@ public class EasyServiceImpl implements EasyService {
     @Override
     public int climbStairs(int n) {
         return ClimbStairs.solve(n);
+    }
+
+    /**
+     * 83-删除排序链表中的重复元素
+     * @param head 排序链表
+     * @return ListNode 去重后的链表
+     */
+    @Override
+    public ListNode deleteDuplicates(ListNode head) {
+        return DeleteDuplicates.solve(head);
     }
 }
