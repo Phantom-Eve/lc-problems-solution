@@ -20,6 +20,7 @@ public class DeleteDuplicates {
      * 输出: 1->2->3
      */
     public static ListNode solve(ListNode head) {
+        // 设置 cur 指针指向头结点 head
         ListNode cur = head;
         while (cur != null && cur.next != null) {
             // 如果相等，next指向下一个
