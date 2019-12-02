@@ -32,8 +32,8 @@ public class EasyServiceImpl implements EasyService {
 
     /**
      * 1-两数之和
-     * @param nums
-     * @param target
+     * @param nums 备选整数数组
+     * @param target 目标值
      * @return int[]
      */
     @Override
@@ -43,7 +43,7 @@ public class EasyServiceImpl implements EasyService {
 
     /**
      * 7-整数反转
-     * @param x
+     * @param x 用于反转的整数
      * @return int
      */
     @Override
@@ -53,7 +53,7 @@ public class EasyServiceImpl implements EasyService {
 
     /**
      * 9-回文数
-     * @param x
+     * @param x 判断是否是回文数的整数
      * @return boolean
      */
     @Override
@@ -63,7 +63,7 @@ public class EasyServiceImpl implements EasyService {
 
     /**
      * 13-罗马数字转整数
-     * @param s
+     * @param s 罗马数字字符串
      * @return int
      */
     @Override
@@ -73,7 +73,7 @@ public class EasyServiceImpl implements EasyService {
 
     /**
      * 14-最长公共前缀
-     * @param args
+     * @param args 给定字符串数组
      * @return java.lang.String
      */
     @Override
@@ -83,7 +83,7 @@ public class EasyServiceImpl implements EasyService {
 
     /**
      * 20-有效的括号
-     * @param s
+     * @param s 给定字符串
      * @return boolean
      */
     @Override
