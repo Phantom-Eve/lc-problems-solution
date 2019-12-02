@@ -10,6 +10,7 @@ import com.leetcode.problems.easy.IsValid;
 import com.leetcode.problems.easy.LengthOfLastWord;
 import com.leetcode.problems.easy.LongestCommonPrefix;
 import com.leetcode.problems.easy.MaxSubArray;
+import com.leetcode.problems.easy.Merge;
 import com.leetcode.problems.easy.MergeTwoLists;
 import com.leetcode.problems.easy.MySqrt;
 import com.leetcode.problems.easy.PlusOne;
@@ -224,5 +225,19 @@ public class EasyServiceImpl implements EasyService {
     @Override
     public ListNode deleteDuplicates(ListNode head) {
         return DeleteDuplicates.solve(head);
+    }
+
+    /**
+     * 88-合并两个有序数组
+     * @param nums1 数组1
+     * @param m 数组1长度
+     * @param nums2 数组2
+     * @param n 数组2长度
+     * @return int[] 合并后数组
+     */
+    @Override
+    public int[] merge(int[] nums1, int m, int[] nums2, int n) {
+        Merge.solve(nums1, m, nums2, n);
+        return nums1;
     }
 }

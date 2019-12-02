@@ -21,6 +21,14 @@ public class ReqParams {
 
     private ListNode l2;
 
+    private int[] nums1;
+
+    private int m;
+
+    private int[] nums2;
+
+    private int n;
+
     public int[] getNums() {
         return nums;
     }
@@ -67,5 +75,37 @@ public class ReqParams {
 
     public void setL2(ListNode l2) {
         this.l2 = l2;
+    }
+
+    public int[] getNums1() {
+        return nums1;
+    }
+
+    public void setNums1(int[] nums1) {
+        this.nums1 = nums1;
+    }
+
+    public int getM() {
+        return m;
+    }
+
+    public void setM(int m) {
+        this.m = m;
+    }
+
+    public int[] getNums2() {
+        return nums2;
+    }
+
+    public void setNums2(int[] nums2) {
+        this.nums2 = nums2;
+    }
+
+    public int getN() {
+        return n;
+    }
+
+    public void setN(int n) {
+        this.n = n;
     }
 }

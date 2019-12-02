@@ -21,5 +21,6 @@ for practice leetcode problems by Spring Boot
 17. [69]x的平方根--[MySqrt](./lc-problems-solution-api/src/main/java/com/leetcode/problems/easy/MySqrt.java)
 18. [70]爬楼梯--[ClimbStairs](./lc-problems-solution-api/src/main/java/com/leetcode/problems/easy/ClimbStairs.java)
 19. [83]删除排序链表中的重复元素--[DeleteDuplicates](./lc-problems-solution-api/src/main/java/com/leetcode/problems/easy/DeleteDuplicates.java)
+20. [88]合并两个有序数组--[Merge](./lc-problems-solution-api/src/main/java/com/leetcode/problems/easy/Merge.java)
 ### Medium
 ### Hard

@@ -190,4 +190,12 @@ public class EasyController {
     public String deleteDuplicates(@RequestBody ReqParams reqParams) {
         return new Gson().toJson(easyService.deleteDuplicates(reqParams.getL1()));
     }
+
+    /**
+     * 88-合并两个有序数组
+     */
+    @PostMapping("/merge")
+    public String merge(@RequestBody ReqParams params) {
+        return new Gson().toJson(easyService.merge(params.getNums1(), params.getM(), params.getNums2(), params.getM()));
+    }
 }

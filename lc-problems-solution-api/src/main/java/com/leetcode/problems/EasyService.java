@@ -146,4 +146,14 @@ public interface EasyService {
      * @return ListNode 去重后的链表
      */
     ListNode deleteDuplicates(ListNode head);
+
+    /**
+     * 88-合并两个有序数组
+     * @param nums1 数组1
+     * @param m 数组1长度
+     * @param nums2 数组2
+     * @param n 数组2长度
+     * @return int[] 合并后数组
+     */
+    int[] merge(int[] nums1, int m, int[] nums2, int n);
 }
