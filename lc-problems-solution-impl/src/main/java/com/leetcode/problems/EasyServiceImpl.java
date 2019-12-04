@@ -1,11 +1,13 @@
 package com.leetcode.problems;
 
 import com.leetcode.problems.auxiliary.ListNode;
+import com.leetcode.problems.auxiliary.TreeNode;
 import com.leetcode.problems.easy.AddBinary;
 import com.leetcode.problems.easy.ClimbStairs;
 import com.leetcode.problems.easy.CountAndSay;
 import com.leetcode.problems.easy.DeleteDuplicates;
 import com.leetcode.problems.easy.IsPalindrome;
+import com.leetcode.problems.easy.IsSameTree;
 import com.leetcode.problems.easy.IsValid;
 import com.leetcode.problems.easy.LengthOfLastWord;
 import com.leetcode.problems.easy.LongestCommonPrefix;
@@ -239,5 +241,16 @@ public class EasyServiceImpl implements EasyService {
     public int[] merge(int[] nums1, int m, int[] nums2, int n) {
         Merge.solve(nums1, m, nums2, n);
         return nums1;
+    }
+
+    /**
+     * 100-相同的树
+     * @param p 树p
+     * @param q 树q
+     * @return boolean 判断结果
+     */
+    @Override
+    public boolean isSameTree(TreeNode p, TreeNode q) {
+        return IsSameTree.solve(p, q);
     }
 }

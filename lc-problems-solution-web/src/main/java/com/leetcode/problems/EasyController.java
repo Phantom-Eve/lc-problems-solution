@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -16,6 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
  * Created on 2019/7/31.
  */
 @RestController
+@RequestMapping("/easy")
 public class EasyController {
 
     @Autowired
@@ -197,5 +199,13 @@ public class EasyController {
     @PostMapping("/merge")
     public String merge(@RequestBody ReqParams params) {
         return new Gson().toJson(easyService.merge(params.getNums1(), params.getM(), params.getNums2(), params.getM()));
+    }
+
+    /**
+     * 100-相同的树
+     */
+    @PostMapping("/isSameTree")
+    public String isSameTree(@RequestBody ReqParams params) {
+        return new Gson().toJson(easyService.isSameTree(params.getP(), params.getQ()));
     }
 }

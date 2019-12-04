@@ -1,6 +1,7 @@
 package com.leetcode.problems;
 
 import com.leetcode.problems.auxiliary.ListNode;
+import com.leetcode.problems.auxiliary.TreeNode;
 
 /**
  * 简单问题解决方案 Service
@@ -156,4 +157,12 @@ public interface EasyService {
      * @return int[] 合并后数组
      */
     int[] merge(int[] nums1, int m, int[] nums2, int n);
+
+    /**
+     * 100-相同的树
+     * @param p 树p
+     * @param q 树q
+     * @return boolean 判断结果
+     */
+    boolean isSameTree(TreeNode p, TreeNode q);
 }

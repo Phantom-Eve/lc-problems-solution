@@ -1,6 +1,7 @@
 package com.leetcode.problems.vo;
 
 import com.leetcode.problems.auxiliary.ListNode;
+import com.leetcode.problems.auxiliary.TreeNode;
 import java.util.List;
 
 /**
@@ -28,6 +29,10 @@ public class ReqParams {
     private int[] nums2;
 
     private int n;
+
+    private TreeNode p;
+
+    private TreeNode q;
 
     public int[] getNums() {
         return nums;
@@ -107,5 +112,21 @@ public class ReqParams {
 
     public void setN(int n) {
         this.n = n;
+    }
+
+    public TreeNode getP() {
+        return p;
+    }
+
+    public void setP(TreeNode p) {
+        this.p = p;
+    }
+
+    public TreeNode getQ() {
+        return q;
+    }
+
+    public void setQ(TreeNode q) {
+        this.q = q;
     }
 }

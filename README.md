@@ -22,5 +22,7 @@ for practice leetcode problems by Spring Boot
 18. [70]爬楼梯--[ClimbStairs](./lc-problems-solution-api/src/main/java/com/leetcode/problems/easy/ClimbStairs.java)
 19. [83]删除排序链表中的重复元素--[DeleteDuplicates](./lc-problems-solution-api/src/main/java/com/leetcode/problems/easy/DeleteDuplicates.java)
 20. [88]合并两个有序数组--[Merge](./lc-problems-solution-api/src/main/java/com/leetcode/problems/easy/Merge.java)
+
+21. [100]相同的树--[IsSameTree](./lc-problems-solution-api/src/main/java/com/leetcode/problems/easy/IsSameTree.java)
 ### Medium
 ### Hard
