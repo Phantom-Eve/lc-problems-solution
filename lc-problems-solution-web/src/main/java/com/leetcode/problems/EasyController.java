@@ -208,4 +208,12 @@ public class EasyController {
     public String isSameTree(@RequestBody ReqParams params) {
         return new Gson().toJson(easyService.isSameTree(params.getP(), params.getQ()));
     }
+
+    /**
+     * 101-对称二叉树
+     */
+    @PostMapping("/isSymmetric")
+    public String isSymmetric(@RequestBody ReqParams params) {
+        return new Gson().toJson(easyService.isSymmetric(params.getP()));
+    }
 }

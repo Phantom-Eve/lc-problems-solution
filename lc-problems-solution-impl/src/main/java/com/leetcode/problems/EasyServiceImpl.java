@@ -8,6 +8,7 @@ import com.leetcode.problems.easy.CountAndSay;
 import com.leetcode.problems.easy.DeleteDuplicates;
 import com.leetcode.problems.easy.IsPalindrome;
 import com.leetcode.problems.easy.IsSameTree;
+import com.leetcode.problems.easy.IsSymmetric;
 import com.leetcode.problems.easy.IsValid;
 import com.leetcode.problems.easy.LengthOfLastWord;
 import com.leetcode.problems.easy.LongestCommonPrefix;
@@ -252,5 +253,15 @@ public class EasyServiceImpl implements EasyService {
     @Override
     public boolean isSameTree(TreeNode p, TreeNode q) {
         return IsSameTree.solve(p, q);
+    }
+
+    /**
+     * 101-对称二叉树
+     * @param root 待判断是否对称的二叉树
+     * @return boolean 判断结果
+     */
+    @Override
+    public boolean isSymmetric(TreeNode root) {
+        return IsSymmetric.solve(root);
     }
 }

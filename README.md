@@ -24,5 +24,6 @@ for practice leetcode problems by Spring Boot
 20. [88]合并两个有序数组--[Merge](./lc-problems-solution-api/src/main/java/com/leetcode/problems/easy/Merge.java)
 
 21. [100]相同的树--[IsSameTree](./lc-problems-solution-api/src/main/java/com/leetcode/problems/easy/IsSameTree.java)
+22. [101]对称二叉树--[IsSymmetric](./lc-problems-solution-api/src/main/java/com/leetcode/problems/easy/IsSymmetric.java)
 ### Medium
 ### Hard

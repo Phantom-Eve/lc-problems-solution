@@ -165,4 +165,11 @@ public interface EasyService {
      * @return boolean 判断结果
      */
     boolean isSameTree(TreeNode p, TreeNode q);
+
+    /**
+     * 101-对称二叉树
+     * @param root 待判断是否对称的二叉树
+     * @return boolean 判断结果
+     */
+    boolean isSymmetric(TreeNode root);
 }
